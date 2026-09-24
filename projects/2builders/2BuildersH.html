@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2Builders — General Contractors &amp; Construction Management</title>
+<meta name="description" content="2Builders is a licensed general contractor delivering commercial, industrial, and residential construction — from first blueprint to final walkthrough.">
+<meta name="theme-color" content="#0B2A4A">
+
+<!-- Favicons (generated from the 2Builders mark) -->
+<link rel="icon" type="image/png" sizes="32x32" href="logo.png">
+<link rel="icon" type="image/png" sizes="16x16" href="logo.png">
+<link rel="apple-touch-icon" sizes="180x180" href="logo.png">
+
+<script>document.documentElement.classList.add('js')</script>
+<noscript><style>body.is-loading{overflow:auto!important}.preloader{display:none!important}.rise,[data-reveal],.line>span,.w>span{opacity:1!important;transform:none!important;clip-path:none!important}</style></noscript>
+<script src="2BuildersLanguages.js" defer></script>
+<script src="2BuildersJ.js" defer></script>
+
+<!-- Fonts: Space Grotesk for headings (technical, drafted feel), Inter for body -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="2BuildersC.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- Scroll progress indicator -->
+<div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="siteHeader">
+  <div class="header-inner container">
+    <a href="#home" class="brand" aria-label="2Builders — home">
+      <img src="logo.png" alt="" class="brand-mark" width="44" height="44">
+      <span class="brand-name">2Builders</span>
+    </a>
+
+    <nav class="main-nav" id="mainNav" aria-label="Primary">
+      <ul>
+        <li><a href="#home" class="nav-link is-active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#process" class="nav-link">Process</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <div class="language-switch" role="group" aria-label="Язык / Language"><button type="button" data-language="ru" lang="ru" aria-label="Русский" aria-pressed="true">RU</button><span aria-hidden="true">|</span><button type="button" data-language="en" lang="en" aria-label="English" aria-pressed="false">EN</button></div>
+      <a href="#contact" class="btn btn-primary btn-small">Get a quote</a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero-grid" aria-hidden="true"></div>
+    <img src="Фото/Фон-хиро.png" alt="" class="hero-photo" id="heroPhoto"
+         onerror="this.style.display='none'">
+    <div class="hero-scrim" aria-hidden="true"></div>
+    <span class="hero-ghost" aria-hidden="true">2B</span>
+
+    <div class="container hero-inner">
+      <div class="hero-copy" data-reveal-group>
+        <h1 class="hero-title" data-reveal>
+          We build the structures<br>your city stands on.
+        </h1>
+        <p class="hero-sub" data-reveal>
+          2Builders is a full-service general contractor delivering commercial, industrial,
+          and residential projects — planned with precision and built by crews who show up
+          on schedule.
+        </p>
+        <div class="hero-actions" data-reveal>
+          <a href="#contact" class="btn btn-primary">Start a project</a>
+          <a href="#projects" class="btn btn-ghost">See our work</a>
+        </div>
+        <p class="hero-note" data-reveal>Licensed, bonded, and insured general contractor.</p>
+      </div>
+    </div>
+
+    <a href="#stats" class="scroll-cue" aria-label="Scroll to content">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ============ STATS STRIP (overlaps hero) ============ -->
+  <section class="stats" id="stats" aria-label="2Builders in numbers">
+    <div class="container stats-inner">
+      <div class="stat" data-reveal>
+        <span class="stat-number" data-count="15" data-suffix="+">0</span>
+        <span class="stat-label">Years building</span>
+      </div>
+      <div class="stat-tick" aria-hidden="true"></div>
+      <div class="stat" data-reveal>
+        <span class="stat-number" data-count="350" data-suffix="+">0</span>
+        <span class="stat-label">Projects completed</span>
+      </div>
+      <div class="stat-tick" aria-hidden="true"></div>
+      <div class="stat" data-reveal>
+        <span class="stat-number" data-count="80" data-suffix="+">0</span>
+        <span class="stat-label">Skilled tradespeople</span>
+      </div>
+      <div class="stat-tick" aria-hidden="true"></div>
+      <div class="stat" data-reveal>
+        <span class="stat-number" data-count="98" data-suffix="%">0</span>
+        <span class="stat-label">On-time completion</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="about" id="about">
+    <div class="container about-inner">
+
+      <div class="about-media" data-reveal>
+        <div class="media-frame" data-label="About photo — job site or crew, 1000×1250px">
+          <img src="Фото/Зал заседания.png" alt="2Builders crew on an active job site"
+               loading="lazy"
+               onerror="this.closest('.media-frame').classList.add('is-empty'); this.remove();">
+        </div>
+        <div class="media-badge">
+          <strong>15+</strong>
+          <span>years in the field</span>
+        </div>
+      </div>
+
+      <div class="about-copy">
+        <h2 class="section-title" data-reveal>Built on precision, delivered with accountability</h2>
+        <p class="section-lead" data-reveal>
+          Since our first project, 2Builders has run on one rule: the people who plan
+          the work are the same people who answer for it. We keep engineering, project
+          management, and our own field crews under one roof, so nothing gets lost in
+          translation between the drawing and the job site.
+        </p>
+        <p data-reveal>
+          From ground-up commercial builds to complex renovations, we plan around your
+          budget and code requirements before a single wall goes up — then we build to
+          a schedule you can actually see.
+        </p>
+
+        <ul class="credential-list" data-reveal>
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5 9.5 18 20 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Licensed general contractor, fully bonded &amp; insured
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5 9.5 18 20 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            In-house structural engineering &amp; project management
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5 9.5 18 20 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            OSHA-certified supervisors on every site
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12.5 9.5 18 20 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Real-time schedule and budget reporting for every client
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <h2 class="section-title">What we build, and how</h2>
+        <p class="section-lead">Four disciplines, one accountable team — from the first
+          calculation to the final inspection.</p>
+      </div>
+
+      <div class="services-grid">
+
+        <article class="service-card" data-reveal>
+          <div class="service-frame" aria-hidden="true"></div>
+          <svg class="service-icon" viewBox="0 0 48 48" aria-hidden="true">
+            <path d="M6 40h36M10 40V18l14-10 14 10v22M18 40V24h12v16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <h3>Structural engineering</h3>
+          <p>Structural design and analysis for buildings of every scale, from
+            foundation calculations to final framing plans.</p>
+        </article>
+
+        <article class="service-card" data-reveal>
+          <div class="service-frame" aria-hidden="true"></div>
+          <svg class="service-icon" viewBox="0 0 48 48" aria-hidden="true">
+            <path d="M8 40V16l10-6 10 6v24M28 40V22l10-6 10 6v18M4 40h40" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <h3>Construction management</h3>
+          <p>One point of accountability for schedule, budget, and subcontractor
+            coordination, from mobilization to closeout.</p>
+        </article>
+
+        <article class="service-card" data-reveal>
+          <div class="service-frame" aria-hidden="true"></div>
+          <svg class="service-icon" viewBox="0 0 48 48" aria-hidden="true">
+            <path d="M24 6c6 6 10 12 10 18a10 10 0 0 1-20 0c0-6 4-12 10-18Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/>
+            <path d="M24 44v-8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+          </svg>
+          <h3>Sustainable building</h3>
+          <p>Energy-conscious materials and methods that lower long-term operating
+            costs without slowing down the schedule.</p>
+        </article>
+
+        <article class="service-card" data-reveal>
+          <div class="service-frame" aria-hidden="true"></div>
+          <svg class="service-icon" viewBox="0 0 48 48" aria-hidden="true">
+            <path d="M6 18 24 6l18 12M10 20v18h28V20M20 38V26h8v12" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <h3>General contracting</h3>
+          <p>Ground-up construction and full renovations, built by our own crews
+            and vetted trade partners.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROCESS ============ -->
+  <section class="process" id="process">
+    <div class="container">
+      <div class="section-head section-head-light" data-reveal>
+        <h2 class="section-title">How a project moves from idea to keys</h2>
+        <p class="section-lead">The same four phases, every time — so you always know
+          what happens next.</p>
+      </div>
+
+      <ol class="process-list">
+        <li class="process-step" data-reveal>
+          <span class="process-num">01</span>
+          <div>
+            <h3>Plan</h3>
+            <p>We study the site, the budget, and the code before a single drawing
+              is treated as final.</p>
+          </div>
+        </li>
+        <li class="process-step" data-reveal>
+          <span class="process-num">02</span>
+          <div>
+            <h3>Design &amp; permit</h3>
+            <p>Architects and engineers finalize plans while we manage permitting
+              and approvals in parallel.</p>
+          </div>
+        </li>
+        <li class="process-step" data-reveal>
+          <span class="process-num">03</span>
+          <div>
+            <h3>Build</h3>
+            <p>Our crews and vetted subcontractors execute against a schedule you
+              can track in real time.</p>
+          </div>
+        </li>
+        <li class="process-step" data-reveal>
+          <span class="process-num">04</span>
+          <div>
+            <h3>Deliver &amp; support</h3>
+            <p>Final inspections, a full walkthrough, and a warranty that outlasts
+              the punch list.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="section-head" data-reveal>
+        <h2 class="section-title">Recent work</h2>
+        <p class="section-lead">A sample of projects across commercial, residential,
+          and industrial construction.</p>
+      </div>
+
+      <div class="project-filters" role="group" aria-label="Filter projects by category" data-reveal>
+        <button class="filter-btn is-active" data-filter="all" type="button">All</button>
+        <button class="filter-btn" data-filter="commercial" type="button">Commercial</button>
+        <button class="filter-btn" data-filter="residential" type="button">Residential</button>
+        <button class="filter-btn" data-filter="industrial" type="button">Industrial</button>
+      </div>
+
+      <div class="project-grid" id="projectGrid">
+
+        <article class="project-card" data-category="commercial" data-reveal>
+          <div class="media-frame" data-label="Meridian Office Tower — 1200×900px">
+            <img src="Фото/Офис-мердиан.png" alt="Meridian Office Tower" loading="lazy"
+                 onerror="this.closest('.media-frame').classList.add('is-empty'); this.remove();">
+          </div>
+          <div class="project-info">
+            <h3>Meridian Office Tower</h3>
+            <span class="project-tag">Commercial</span>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="residential" data-reveal>
+          <div class="media-frame" data-label="Harborview Residences — 1200×900px">
+            <img src="Фото/резеденция-харборвью.png" alt="Harborview Residences" loading="lazy"
+                 onerror="this.closest('.media-frame').classList.add('is-empty'); this.remove();">
+          </div>
+          <div class="project-info">
+            <h3>Harborview Residences</h3>
+            <span class="project-tag">Residential</span>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="industrial" data-reveal>
+          <div class="media-frame" data-label="Northgate Distribution Center — 1200×900px">
+            <img src="Фото/Порт-Нортгайт.png" alt="Northgate Distribution Center" loading="lazy"
+                 onerror="this.closest('.media-frame').classList.add('is-empty'); this.remove();">
+          </div>
+          <div class="project-info">
+            <h3>Northgate Distribution Center</h3>
+            <span class="project-tag">Industrial</span>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="commercial" data-reveal>
+          <div class="media-frame" data-label="Union Square Retail Complex — 1200×900px">
+            <img src="Фото/Торговый-комплекс.png" alt="Union Square Retail Complex" loading="lazy"
+                 onerror="this.closest('.media-frame').classList.add('is-empty'); this.remove();">
+          </div>
+          <div class="project-info">
+            <h3>Union Square Retail Complex</h3>
+            <span class="project-tag">Commercial</span>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="residential" data-reveal>
+          <div class="media-frame" data-label="Cedar Ridge Townhomes — 1200×900px">
+            <img src="Фото/Ридр-Товнхоум.png" alt="Cedar Ridge Townhomes" loading="lazy"
+                 onerror="this.closest('.media-frame').classList.add('is-empty'); this.remove();">
+          </div>
+          <div class="project-info">
+            <h3>Cedar Ridge Townhomes</h3>
+            <span class="project-tag">Residential</span>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="industrial" data-reveal>
+          <div class="media-frame" data-label="Ashford Manufacturing Plant — 1200×900px">
+            <img src="Фото/фабрика-авсвурд-мануфактуринг.png" alt="Ashford Manufacturing Plant" loading="lazy"
+                 onerror="this.closest('.media-frame').classList.add('is-empty'); this.remove();">
+          </div>
+          <div class="project-info">
+            <h3>Ashford Manufacturing Plant</h3>
+            <span class="project-tag">Industrial</span>
+          </div>
+        </article>
+
+      </div>
+
+      <p class="project-empty" id="projectEmpty" hidden>No projects in this category yet.</p>
+    </div>
+  </section>
+
+  <!-- ============ CTA BANNER ============ -->
+  <section class="cta-banner">
+    <div class="cta-grid" aria-hidden="true"></div>
+    <div class="container cta-inner" data-reveal>
+      <h2>Have a site and a deadline?<br>Let's build the plan.</h2>
+      <a href="#contact" class="btn btn-light">Start a project</a>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact" id="contact">
+    <div class="container contact-inner">
+
+      <div class="contact-form-wrap" data-reveal>
+        <h2 class="section-title">Tell us about your project</h2>
+        <p class="section-lead">Share a few details and a project lead will get back
+          to you within one business day.</p>
+
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="fName">Name</label>
+              <input type="text" id="fName" name="name" autocomplete="name" required>
+              <span class="form-error">Enter your name.</span>
+            </div>
+            <div class="form-field">
+              <label for="fEmail">Email</label>
+              <input type="email" id="fEmail" name="email" autocomplete="email" required>
+              <span class="form-error">Enter a valid email.</span>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-field">
+              <label for="fPhone">Phone</label>
+              <input type="tel" id="fPhone" name="phone" autocomplete="tel">
+            </div>
+            <div class="form-field">
+              <label for="fType">Project type</label>
+              <select id="fType" name="projectType">
+                <option value="commercial">Commercial</option>
+                <option value="residential">Residential</option>
+                <option value="industrial">Industrial</option>
+                <option value="not-sure">Not sure yet</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="fMessage">Project details</label>
+            <textarea id="fMessage" name="message" rows="5" required></textarea>
+            <span class="form-error">Tell us a little about the project.</span>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-wide">
+            <span class="btn-label">Send message</span>
+          </button>
+
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+
+      <div class="contact-side" data-reveal>
+        <div class="media-frame media-frame-short" data-label="Office photo — 900×700px">
+          <img src="Фото/женщина.png" alt="2Builders office" loading="lazy"
+               onerror="this.closest('.media-frame').classList.add('is-empty'); this.remove();">
+        </div>
+
+        <ul class="contact-info-list">
+          <li>
+            <span class="contact-info-label">Office</span>
+            <span>Karaganda,<br>abaya 23</span>
+          </li>
+          <li>
+            <span class="contact-info-label">Phone</span>
+            <a href="tel:+10000000000">+7 (705) 305-6878</a>
+          </li>
+          <li>
+            <span class="contact-info-label">Email</span>
+            <a href="mailto:projects@2builders.com">projects@2builders.com</a>
+          </li>
+          <li>
+            <span class="contact-info-label">Hours</span>
+            <span>Mon–Fri, 7:00 AM – 5:00 PM</span>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+
+    <div class="footer-brand">
+      <a href="#home" class="brand" aria-label="2Builders — home">
+        <img src="logo.png" alt="" class="brand-mark" width="40" height="40">
+      </a>
+      <p>Licensed general contractor delivering commercial, industrial, and
+        residential construction.</p>
+      <div class="social-links">
+        <a href="#" aria-label="2Builders on Instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.2c2.7 0 3 .01 4.1.06 1.1.05 1.8.22 2.2.37.55.2.95.46 1.36.87.41.41.67.81.87 1.36.15.4.32 1.1.37 2.2.05 1.1.06 1.4.06 4.1s-.01 3-.06 4.1c-.05 1.1-.22 1.8-.37 2.2-.2.55-.46.95-.87 1.36-.41.41-.81.67-1.36.87-.4.15-1.1.32-2.2.37-1.1.05-1.4.06-4.1.06s-3-.01-4.1-.06c-1.1-.05-1.8-.22-2.2-.37a3.7 3.7 0 0 1-1.36-.87 3.7 3.7 0 0 1-.87-1.36c-.15-.4-.32-1.1-.37-2.2-.05-1.1-.06-1.4-.06-4.1s.01-3 .06-4.1c.05-1.1.22-1.8.37-2.2.2-.55.46-.95.87-1.36.41-.41.81-.67 1.36-.87.4-.15 1.1-.32 2.2-.37 1.1-.05 1.4-.06 4.1-.06Zm0 4.35a5.45 5.45 0 1 0 0 10.9 5.45 5.45 0 0 0 0-10.9Zm0 8.99a3.54 3.54 0 1 1 0-7.08 3.54 3.54 0 0 1 0 7.08Zm5.67-9.2a1.27 1.27 0 1 1-2.55 0 1.27 1.27 0 0 1 2.55 0Z"/></svg>
+        </a>
+        <a href="#" aria-label="2Builders on Facebook">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M13.5 21v-7.9h2.65l.4-3.08h-3.05V8.06c0-.9.25-1.5 1.53-1.5h1.64V3.8c-.28-.04-1.25-.12-2.38-.12-2.35 0-3.96 1.43-3.96 4.06v2.27H7.68v3.08h2.65V21z"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <nav class="footer-col" aria-label="Company">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <nav class="footer-col" aria-label="Services">
+      <h4>Services</h4>
+      <ul>
+        <li><a href="#services">Structural engineering</a></li>
+        <li><a href="#services">Construction management</a></li>
+        <li><a href="#services">Sustainable building</a></li>
+        <li><a href="#services">General contracting</a></li>
+      </ul>
+    </nav>
+
+    <nav class="footer-col" aria-label="Legal">
+      <h4>Legal</h4>
+      <ul>
+        <li><a href="#">Privacy policy</a></li>
+        <li><a href="#">Terms of service</a></li>
+        <li><a href="#">Site safety policy</a></li>
+      </ul>
+    </nav>
+
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <p>&copy; <span id="year">2026</span> 2Builders. All rights reserved.</p>
+      <p>Licensed General Contractor</p>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0a0a0a">
+<title>Portfolio от Абду</title>
+<meta name="description" content="Абдурахман — фуллстак-разработчик. Сайты любой сложности: от вашей идеи до реализации. HTML, CSS, JavaScript, Python и PHP.">
+<link rel="icon" type="image/png" href="./abdu-star-orange-transparent.png">
+<link rel="stylesheet" href="./PortfolioByAbduC.css">
+</head>
+<body>
+<a class="skip" href="#main" data-en="Skip to content">К содержимому</a>
+<header class="header">
+<a class="brand" href="#home" aria-label="Абдурахман — главная"><span>Portfolio<span class="brand-dot">by Abdu</span></span></a>
+<button class="language" type="button" aria-label="Switch to English">RU <span>⌄</span></button>
+<nav class="nav" aria-label="Основная навигация">
+<a href="#about" data-en="About">Обо мне</a><a href="#projects" data-en="Projects">Проекты</a><a href="#skills" data-en="Skills">Навыки</a>
+</nav>
+<a class="pill header-contact" href="#contact"><span data-en="Get in touch">Связаться со мной</span><span>↗</span></a>
+<button class="menu-toggle" aria-label="Открыть меню" aria-expanded="false" type="button"><span></span><span></span></button>
+</header>
+<main id="main">
+<section class="hero" id="home">
+<div class="hero-content">
+<p class="eyebrow"> <span data-en="FULLSTACK DEVELOPER">Fullstack-разработчик</span></p>
+<h1><span data-en="Hi, I'm Abdurakhman.">Привет, я Абдурахман.</span><br><span class="muted" data-en="Take a look at my work.">Посмотри мои работы.</span></h1>
+<p class="hero-caption" data-en="Your idea. My knowledge and dedication.">Ваша идея. Мои знания и старания.</p>
+<div class="socials">
+<a href="https://www.behance.net/AbduBehancs" target="_blank" rel="noopener noreferrer" aria-label="Behance">Bē</a>
+<a href="https://github.com/abaduska666-cell" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-4 1-4-2-6-2m12 5v-4a3 3 0 0 0-1-2c3 0 6-1 6-6a5 5 0 0 0-1-3 5 5 0 0 0 0-4s-1 0-4 2a13 13 0 0 0-6 0C6 3 5 3 5 3a5 5 0 0 0 0 4 5 5 0 0 0-1 3c0 5 3 6 6 6a3 3 0 0 0-1 2v4"/></svg></a>
+<a href="https://t.me/NishanovAbdu" target="_blank" rel="noopener noreferrer" aria-label="Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 10 18-7-4 18-6-6-4 3 1-6 9-6-10 8z"/></svg></a>
+</div>
+<div class="contact-pills"><a class="pill dark-pill email-link" href="mailto:abaduska666@gmail.com"><span>↗</span> abaduska666@gmail.com</a><a class="pill dark-pill" href="https://t.me/NishanovAbdu" target="_blank" rel="noopener noreferrer"><span>↗</span><span>@NishanovAbdu</span></a></div>
+</div>
+<div class="horizon" aria-hidden="true"><div class="arc"></div></div>
+<a class="scroll-hint" href="#projects"><span data-en="SCROLL TO EXPLORE">ЛИСТАЙТЕ, ЧТОБЫ УЗНАТЬ БОЛЬШЕ</span><span>↓</span></a>
+</section>
+<section class="projects section" id="projects">
+<div class="section-heading"><div><p class="eyebrow" data-en="01 / SELECTED WORK">01 / ИЗБРАННОЕ</p><h2 data-en="Ideas become working websites.">Идеи становятся сайтами.</h2></div><p class="section-aside" data-en="Three projects / 2026">Три проекта / 2026</p></div>
+<div class="project-grid real-projects">
+<article class="project real-project">
+<a class="project-preview" href="./projects/mr-dental/index.html" target="_blank" rel="noopener noreferrer" aria-label="Mr.Dental">
+<div class="project-art dental-art">
+<img src="./assets/dental.webp" alt="" loading="lazy" width="600" height="400">
+<span class="art-caption">01 / MR.DENTAL</span><span class="preview-name">Mr.Dental</span><span class="project-open" aria-hidden="true">↗</span>
+</div></a>
+<div class="project-meta"><h3>Mr.Dental</h3><span>Responsive · JavaScript</span></div>
+<p class="project-type" data-en="Dental clinic">Стоматологическая клиника</p>
+<p class="project-description" data-en="A responsive dental clinic website with services, patient stories and mobile navigation.">Адаптивный сайт стоматологической клиники: услуги, истории пациентов и мобильная навигация.</p>
+<div class="project-links"><a class="pill dark-pill" href="./projects/mr-dental/index.html" target="_blank" rel="noopener noreferrer"><span data-en="View website">Открыть сайт</span><span>↗</span></a><button class="project-details" type="button" data-project="0" data-en="Details">Подробнее</button></div>
+</article>
+<article class="project real-project">
+<a class="project-preview" href="./projects/boblirest/index.html" target="_blank" rel="noopener noreferrer" aria-label="BobliRest">
+<div class="project-art restaurant-art">
+<img src="./assets/restaurant.png" alt="" loading="lazy" width="600" height="400">
+<span class="art-caption">02 / BOBLIREST</span><span class="preview-name">BobliRest</span><span class="project-open" aria-hidden="true">↗</span>
+</div></a>
+<div class="project-meta"><h3>BobliRest</h3><span>RU / EN · Animation</span></div>
+<p class="project-type" data-en="Restaurant">Ресторан</p>
+<p class="project-description" data-en="A restaurant website with a menu, reservation form, reviews and Russian / English language switching.">Сайт ресторана с меню, формой бронирования, отзывами и переключением русского и английского языков.</p>
+<div class="project-links"><a class="pill dark-pill" href="./projects/boblirest/index.html" target="_blank" rel="noopener noreferrer"><span data-en="View website">Открыть сайт</span><span>↗</span></a><button class="project-details" type="button" data-project="1" data-en="Details">Подробнее</button></div>
+</article>
+<article class="project real-project">
+<a class="project-preview" href="./projects/2builders/index.html" target="_blank" rel="noopener noreferrer" aria-label="2Builders">
+<div class="project-art builders-art">
+<img src="./assets/builders.png" alt="" loading="lazy" width="600" height="400">
+<span class="art-caption">03 / 2BUILDERS</span><span class="preview-name">2Builders</span><span class="project-open" aria-hidden="true">↗</span>
+</div></a>
+<div class="project-meta"><h3>2Builders</h3><span>RU / EN · JavaScript</span></div>
+<p class="project-type" data-en="Construction company">Строительная компания</p>
+<p class="project-description" data-en="A construction company website with services, project stages, project filters and two languages.">Сайт строительной компании с услугами, этапами работы, фильтрами проектов и двумя языками.</p>
+<div class="project-links"><a class="pill dark-pill" href="./projects/2builders/index.html" target="_blank" rel="noopener noreferrer"><span data-en="View website">Открыть сайт</span><span>↗</span></a><button class="project-details" type="button" data-project="2" data-en="Details">Подробнее</button></div>
+</article>
+</div>
+</section>
+<section class="about section" id="about">
+<div><p class="eyebrow" data-en="02 / A LITTLE ABOUT ME">02 / НЕМНОГО ОБО МНЕ</p><h2><span data-en="From your idea">От вашей идеи</span><br><span class="muted" data-en="to a working website.">до работающего сайта.</span></h2></div>
+<div class="about-copy"><p data-en="I’m Abdurakhman, a fullstack developer. I build websites of any complexity, from your first idea to a complete solution.">Я Абдурахман, фуллстак-разработчик. Делаю сайты любой сложности — от вашей первой идеи до готового решения.</p><p class="muted" data-en="Your idea, my knowledge and dedication. I’m ready to invest as much time as it takes to bring it to life, with attention to every detail.">В основе — ваша идея, мои знания и старания. Готов уделить проекту столько времени, сколько потребуется, чтобы довести его до реализации с вниманием к каждой детали.</p><div id="skills" class="skills"><p class="eyebrow" data-en="MY TOOLKIT">МОИ ИНСТРУМЕНТЫ</p><div class="tags"><span>HTML</span><span>CSS</span><span>Figma</span><span>JavaScript</span><span>Python</span><span>PHP</span><span data-en="Responsive design">Адаптивный дизайн</span></div></div></div>
+</section>
+<section class="contact section" id="contact">
+<div class="contact-heading"><p class="eyebrow" data-en="03 / LET'S CREATE SOMETHING">03 / ДАВАЙТЕ СОЗДАВАТЬ</p><h2><span data-en="Have something in mind?">Есть идея на примете?</span><br><span class="muted" data-en="Let's make it happen.">Давайте воплотим её.</span></h2><p data-en="Tell me a little about it. We'll start with a conversation.">Расскажите немного о ней. Начнём со знакомства.</p></div>
+<form id="contact-form">
+<h3 class="form-title-label" data-en="Let's discuss your project">Обсудить проект</h3>
+<label><span data-en="Your name *">Ваше имя *</span><input name="name" autocomplete="name" required maxlength="100" placeholder="Как к вам обращаться?" data-en-placeholder="What should I call you?"></label>
+<label><span data-en="Phone or Telegram *">Телефон или Telegram *</span><input name="contact" required autocomplete="tel" maxlength="150" placeholder="+7 или @username" data-en-placeholder="Phone number or @username"></label>
+<label><span data-en="A few words about your project *">Пара слов о проекте *</span><textarea name="message" required minlength="10" maxlength="4000" rows="4" placeholder="Что хотите создать? Какие задачи нужно решить?" data-en-placeholder="What would you like to create? What should it achieve?"></textarea></label>
+<div class="form-bottom"><label class="consent"><input type="checkbox" name="consent" required><span data-en="I agree to share these details by email to discuss my project.">Согласен передать эти данные по email для обсуждения проекта.</span></label><button class="pill send" type="submit"><span data-en="Send">Отправить</span><span>↗</span></button></div>
+<p class="form-note" data-en="The button opens an email draft. Nothing is sent automatically.">Кнопка откроет черновик в почте. Данные не отправляются автоматически.</p><p id="form-status" role="status"></p>
+</form>
+<div class="details"><div><h3 data-en="Where to find me">Где меня найти</h3><p data-en="Online · Working remotely">Онлайн · Работаю удалённо</p><p data-en="Open to projects worldwide">Открыт к проектам из любой точки мира</p><a href="mailto:abaduska666@gmail.com" class="accent email-link">abaduska666@gmail.com ↗</a></div><div><h3 data-en="A little more">Ещё немного обо мне</h3><p data-en="Frontend, backend, responsive websites.">Фронтенд, бэкенд, адаптивные сайты.</p><p data-en="Your idea — my knowledge and dedication.">Ваша идея — мои знания и старания.</p><a class="text-link" href="#projects" data-en="Explore projects ↗">Посмотреть проекты ↗</a></div></div>
+</section>
+<section class="closing"><div class="closing-logo" aria-hidden="true">✳</div><p class="eyebrow" data-en="GOOD THINGS START WITH A CONVERSATION">ХОРОШИЕ ВЕЩИ НАЧИНАЮТСЯ С ДИАЛОГА</p><h2><span data-en="Your next idea.">Ваша следующая идея.</span><br><span data-en="Our best project.">Наш лучший проект.</span></h2><a href="#contact" class="closing-link" data-en="Let's create together ↗">Создадим вместе ↗</a></section>
+</main>
+<footer class="footer section"><div><a class="brand" href="#home"><span class="mark">✳</span>ABDU.</a><p>© <span id="year">2026</span> <span data-en="Abdurakhman. Made with care.">Абдурахман. С вниманием к деталям.</span></p></div><nav aria-label="Навигация в подвале"><a href="#about" data-en="About">Обо мне</a><a href="#projects" data-en="Projects">Проекты</a><a href="#skills" data-en="Skills">Навыки</a><a href="#contact" data-en="Contact">Связаться</a></nav><div class="footer-end"><a class="email-link" href="mailto:abaduska666@gmail.com">abaduska666@gmail.com ↗</a><p data-en="Developed by Abdurakhman">Разработка — Абдурахман</p><div class="footer-social"><a href="https://www.behance.net/AbduBehancs" target="_blank" rel="noopener noreferrer" aria-label="Behance">Bē</a><a href="https://github.com/abaduska666-cell" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GH</a><a href="https://t.me/NishanovAbdu" target="_blank" rel="noopener noreferrer" aria-label="Telegram">TG</a></div></div></footer>
+<dialog id="project-dialog"><button class="dialog-close" type="button" aria-label="Закрыть">×</button><p class="eyebrow" id="dialog-category"></p><h2 id="dialog-title"></h2><p id="dialog-description"></p><div class="dialog-scope"></div><a class="pill dialog-visit" id="dialog-visit" href="#" target="_blank" rel="noopener noreferrer"><span data-en="View website">Открыть сайт</span> ↗</a><a class="pill" href="#contact" id="dialog-contact" data-en="Discuss a similar project ↗">Обсудить похожий проект ↗</a></dialog>
+<!-- JavaScript подключён после всей разметки страницы. -->
+<script src="./PortfolioByAbduJ.js" defer></script>
+</body></html>
+
+
