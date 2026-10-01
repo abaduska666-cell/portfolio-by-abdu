@@ -512,12 +512,14 @@ a,button,label,select,summary{touch-action:manipulation}
   .nav__in .burger i:nth-child(2){top:19px}
   .nav__in .burger i:nth-child(3){top:25px}
   .menu-open .nav__in .burger i:nth-child(1),.menu-open .nav__in .burger i:nth-child(3){top:19px}
-  .nav__in .logo__name{font-size:12px}
+  .nav__in .logo__name{font-size:clamp(10px,3.4vw,12px)}
   .nav__in .logo__mark{width:20px;height:18px}
   .mnav{top:calc(70px + env(safe-area-inset-top,0px))}
 }
 @media(min-width:1200px){.nav__cta-mobile{display:none}}
 /* Clip decorative motion without creating a second horizontal scroll container. */
 html,body{overflow-x:clip}
+html{scrollbar-gutter:stable}
+html:has(body.menu-open){overflow:hidden}
 .book__grid>*,.book__left>*,.form>*,.footer__grid>*{min-width:0}
 @media(max-width:900px){.field input,.field select,.news input{font-size:16px}}
