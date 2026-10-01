@@ -150,7 +150,7 @@
     burger.setAttribute('aria-label', t(open ? 'Закрыть меню' : 'Открыть меню'));
   };
   burger.addEventListener('click', () => setMenu(!document.body.classList.contains('menu-open')));
-  $$('.mnav a').forEach(a => a.addEventListener('click', () => setMenu(false)));
+    $$('.mnav a, .nav__cta, .nav__in .logo').forEach(a => a.addEventListener('click', () => setMenu(false)));
   addEventListener('keydown', e => { if (e.key === 'Escape') setMenu(false); });
   matchMedia('(min-width:1200px)').addEventListener('change', e => { if (e.matches) setMenu(false); });
 
