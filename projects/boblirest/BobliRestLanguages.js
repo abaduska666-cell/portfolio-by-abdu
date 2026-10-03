@@ -3,6 +3,8 @@
 (() => {
   'use strict';
   const dictionary = {
+  "Шоколадное фондю": "Chocolate fondue",
+  "Шоколадное фондю с фруктами": "Chocolate fondue with fruit",
   "Блюда": "Dishes",
   "Записаться": "Reserve",
   "BobliRest — вкусная еда, яркие впечатления": "BobliRest — great food, memorable moments",
