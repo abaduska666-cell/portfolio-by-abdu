@@ -3,6 +3,7 @@
 (() => {
   'use strict';
   const dictionary = {
+  "Блюда": "Dishes",
   "Записаться": "Reserve",
   "BobliRest — вкусная еда, яркие впечатления": "BobliRest — great food, memorable moments",
   "BobliRest — ресторан с тёплой атмосферой: фирменные блюда от шефа, бронирование столов, банкеты и праздники.": "BobliRest — a restaurant with a warm atmosphere. Discover our chef’s signature dishes, reserve a table or plan a special celebration.",

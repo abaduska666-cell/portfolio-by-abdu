@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101c16"><title>Меню — BobliRest</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="menu.css?v=1"><script src="menu.js?v=1" defer></script>
+</head>
+<body>
+<header class="menu-header"><div class="header-inner">
+<a class="brand" href="index.html" aria-label="BobliRest"><span class="sprout">✦</span>BOBLIREST<small data-ru="РЕСТОРАН" data-en="RESTAURANT">РЕСТОРАН</small></a>
+<a class="home" href="index.html" data-ru="← На главную" data-en="← Home">← На главную</a>
+<div class="language-switch" role="group" aria-label="Язык / Language"><button data-language="ru" aria-label="Русский" aria-pressed="true">RU</button><span>|</span><button data-language="en" aria-label="English" aria-pressed="false">EN</button></div>
+<button class="cart-trigger" id="open-cart"><span data-ru="Корзина" data-en="Basket">Корзина</span><b id="cart-count">0</b></button>
+</div></header>
+<main class="container">
+<section class="intro"><p class="eyebrow" data-ru="BOBLIREST · МЕНЮ" data-en="BOBLIREST · MENU">BOBLIREST · МЕНЮ</p><h1 data-ru="Выбирайте по настроению." data-en="Follow your appetite.">Выбирайте по настроению.</h1><p data-ru="Любимые вкусы, свежие ингредиенты и немного вдохновения от нашего шефа. Соберите свой идеальный стол." data-en="Familiar flavours, fresh ingredients and a little inspiration from our chef. Create your perfect table.">Любимые вкусы, свежие ингредиенты и немного вдохновения от нашего шефа. Соберите свой идеальный стол.</p><span class="intro-note" data-ru="Нажмите на фото, чтобы узнать о блюде больше" data-en="Tap a photo to discover the dish">Нажмите на фото, чтобы узнать о блюде больше</span></section>
+<nav class="filters" id="filters" aria-label="Категории"></nav>
+<section class="dish-grid" id="dish-grid" aria-label="Блюда"></section>
+<noscript>Для просмотра меню и корзины включите JavaScript.</noscript>
+<p class="menu-note" data-ru="Авторское меню для демонстрации проекта. Цены и состав примерные. Уточните наличие блюд и аллергены у официанта." data-en="A sample menu for this portfolio project. Prices and ingredients are illustrative. Ask your waiter about availability and allergens.">Авторское меню для демонстрации проекта. Цены и состав примерные. Уточните наличие блюд и аллергены у официанта.</p>
+</main>
+<footer><a href="index.html">BOBLIREST</a><p data-ru="Хорошая еда. Хорошее настроение." data-en="Good food. Good mood.">Хорошая еда. Хорошее настроение.</p></footer>
+<dialog id="detail-dialog" aria-labelledby="detail-title"><button class="dialog-close" data-close aria-label="Закрыть">×</button><div id="detail-content"></div></dialog>
+<dialog id="cart-dialog" aria-labelledby="cart-title"><button class="dialog-close" data-close aria-label="Закрыть">×</button><div class="dialog-body"><p class="eyebrow" data-ru="ВАШ ВЫБОР" data-en="YOUR SELECTION">ВАШ ВЫБОР</p><h2 id="cart-title" data-ru="Ваш стол начинается здесь" data-en="Your table starts here">Ваш стол начинается здесь</h2><div id="cart-items"></div><div id="cart-summary"></div></div></dialog>
+<dialog id="waiter-dialog" aria-labelledby="waiter-title"><button class="dialog-close" data-close aria-label="Закрыть">×</button><div class="dialog-body"><p class="eyebrow">BOBLIREST</p><h2 id="waiter-title" data-ru="Покажите официанту" data-en="Show your waiter">Покажите официанту</h2><p class="muted" data-ru="Это список выбранных блюд. Заказ ещё не отправлен — его подтвердит официант." data-en="This is your selection. No order has been sent — your waiter will confirm it.">Это список выбранных блюд. Заказ ещё не отправлен — его подтвердит официант.</p><div id="waiter-items"></div></div></dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body></html>

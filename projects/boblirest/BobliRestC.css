@@ -523,3 +523,7 @@ html{scrollbar-gutter:stable}
 html:has(body.menu-open){overflow:hidden}
 .book__grid>*,.book__left>*,.form>*,.footer__grid>*{min-width:0}
 @media(max-width:900px){.field input,.field select,.news input{font-size:16px}}
+
+/* Compact rectangular language selector. */
+.language-switch{border-radius:10px}
+.language-switch button{border-radius:6px}
